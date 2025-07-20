@@ -172,7 +172,7 @@ const URLShortener = ({ darkMode }) => {
 
       {/* Result Card */}
       {result && result.shortUrl && (
-        <div className={`rounded-2xl p-8 shadow-xl transition-all duration-500 transform animate-in slide-in-from-bottom ${
+        <div className={`rounded-2xl p-8 shadow-xl transition-all duration-500 transform slide-in-from-bottom ${
           darkMode 
             ? 'bg-gradient-to-r from-green-900/20 to-blue-900/20 border border-green-700/30' 
             : 'bg-gradient-to-r from-green-50 to-blue-50 border border-green-200'
