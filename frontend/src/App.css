@@ -10,7 +10,7 @@
 
 @layer components {
   .animate-in {
-    animation: slideInFromBottom 0.5s ease-out;
+    animation: slideInFromBottom 0.5s ease-out forwards;
   }
   
   .slide-in-from-bottom {
